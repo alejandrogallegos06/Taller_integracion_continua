@@ -11,3 +11,5 @@ jobs:
     steps:
       - name: Mostrar mensajes
         run: echo "Mi primer mensaje :)"
+      - name: Fallo intencionado
+        run: exit 1
