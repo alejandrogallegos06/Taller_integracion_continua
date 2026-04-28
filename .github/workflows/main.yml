@@ -30,4 +30,7 @@ jobs:
             exit 1
           fi
           echo "Si encontre app.js :)"
+
+      - name: Probar aplicacion con test
+        run: npm test
             
