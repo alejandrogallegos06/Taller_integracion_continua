@@ -13,3 +13,13 @@ jobs:
         run: echo "Mi primer mensaje :)"
       - name: Fallo intencionado
         run: exit 1
+      - name: Checkout del codido
+        uses: actions/checkout@v4
+
+      - name: Usar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Construir app con node
+        run: npm install
