@@ -25,9 +25,9 @@ jobs:
 
       - name: Verificar si existe app.js
         run: |
-          if[ ! -f "$GITHUB_WORKSPACE/app.js" ]; then 
+          if [ ! -f "$GITHUB_WORKSPACE/app.js" ]; then 
             echo "No encontre app.js :("
             exit 1
           fi
-            echo "Si encontre app.js :)"
+          echo "Si encontre app.js :)"
             
