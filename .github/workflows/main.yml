@@ -11,8 +11,7 @@ jobs:
     steps:
       - name: Mostrar mensajes
         run: echo "Mi primer mensaje :)"
-      - name: Fallo intencionado
-        run: exit 1
+    
       - name: Checkout del codido
         uses: actions/checkout@v4
 
